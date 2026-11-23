@@ -96,18 +96,6 @@ It then continues the analysis with the same 2021–2024 data. The data source u
 
 ---
 
-## Software
-
-Python 3.13 in Google Colab, with pandas 2.2.3, numpy 2.4.6, scipy 1.16.3, scikit-learn 1.6.1, matplotlib 3.10.0, seaborn, yfinance 0.2.66, requests and lxml. Exact versions are in `requirements.txt`.
-
-To install locally:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## Limitations
 
 - **Survivorship bias:** the current constituent list is applied to 2021–2024 data, so companies that left the index during that period are missing.
